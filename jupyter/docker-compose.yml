@@ -1,7 +1,0 @@
-notebook:
-  image: jupyter/minimal-notebook
-  ports:
-    - "8888:8888"
-  volumes:
-    - ./data:/home/jovyan
-  restart: unless-stopped
